@@ -8,6 +8,7 @@ https://sc22.supercomputing.org/
 Her er inspiration til kode
 
 https://github.com/web3templates/nextly-template
+
 https://nextly.web3templates.com/
 
 
