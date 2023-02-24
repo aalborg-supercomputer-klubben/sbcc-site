@@ -1,16 +1,16 @@
-# Nextra Docs Template 
+# SBCC site
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Vi bruger det her som inspiration til text
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+https://sc22.supercomputing.org/
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
-## Quick Start
+Her er inspiration til kode
 
-Click the button to clone this repository and deploy it on Vercel:
+https://github.com/web3templates/nextly-template
+https://nextly.web3templates.com/
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+
 
 ## Local Development
 
