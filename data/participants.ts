@@ -12,7 +12,7 @@ const participants: Participant[] = [
   },
   {
     Name: "ETH Zürich",
-    Url: "https://www.aau.dk/",
+    Url: "https://ethz.ch/de.html",
     Logo_path: "/img/participants/ETH-Zurich_Logo_black.svg",
   },
   {
