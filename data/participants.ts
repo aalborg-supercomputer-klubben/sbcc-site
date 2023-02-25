@@ -13,12 +13,12 @@ const participants: Participant[] = [
   {
     Name: "ETH Zürich",
     Url: "https://ethz.ch/de.html",
-    Logo_path: "/img/participants/ETH-Zurich_Logo_black.svg",
+    Logo_path: "/img/participants/ETH-Zurich_Logo_black.png",
   },
   {
     Name: "Friedrich-Alexander-Universität",
     Url: "https://www.fau.de/",
-    Logo_path: "/img/participants/Friedrich-Alexander-University.svg",
+    Logo_path: "/img/participants/Friedrich-Alexander-University.png",
   },
   {
     Name: "MIT, Boston University",
@@ -38,7 +38,7 @@ const participants: Participant[] = [
   {
     Name: "University of Texas at Austin",
     Url: "https://www.utexas.edu/",
-    Logo_path: "/img/participants/University-of-Texas-at-Austin.svg",
+    Logo_path: "/img/participants/University-of-Texas-at-Austin.png",
   },
 ];
 
