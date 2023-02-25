@@ -8,27 +8,27 @@ const participants: Participant[] = [
   {
     Name: "AAU",
     Url: "https://www.aau.dk/",
-    Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
+    Logo_path: "/img/participants/Aalborg-University-Denmark.png",
   },
   {
     Name: "AAU",
     Url: "https://www.aau.dk/",
-    Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
+    Logo_path: "/img/participants/ETH-Zurich_Logo_black.svg",
   },
   {
     Name: "AAU",
     Url: "https://www.aau.dk/",
-    Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
+    Logo_path: "/img/participants/Aalborg-University-Denmark.png",
   },
   {
     Name: "AAU",
     Url: "https://www.aau.dk/",
-    Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
+    Logo_path: "/img/participants/Aalborg-University-Denmark.png",
   },
   {
     Name: "AAU",
     Url: "https://www.aau.dk/",
-    Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
+    Logo_path: "/img/participants/Aalborg-University-Denmark.png",
   },
 ];
 
