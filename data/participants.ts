@@ -7,27 +7,27 @@ type Participant = {
 const participants: Participant[] = [
   {
     Name: "AAU",
-    Url: "aau.dk",
+    Url: "https://www.aau.dk/",
     Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
   },
   {
     Name: "AAU",
-    Url: "aau.dk",
+    Url: "https://www.aau.dk/",
     Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
   },
   {
     Name: "AAU",
-    Url: "aau.dk",
+    Url: "https://www.aau.dk/",
     Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
   },
   {
     Name: "AAU",
-    Url: "aau.dk",
+    Url: "https://www.aau.dk/",
     Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
   },
   {
     Name: "AAU",
-    Url: "aau.dk",
+    Url: "https://www.aau.dk/",
     Logo_path: "/../public/img/participants/Aalborg-University-Denmark.png",
   },
 ];
