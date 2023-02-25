@@ -158,7 +158,7 @@ export default function PopupWidget() {
                         />
                         {errors.name && (
                           <div className="mt-1 text-sm text-red-400 invalid-feedback">
-                            {errors.name.message}
+                            {errors.name.message.toString()}
                           </div>
                         )}
                       </div>
@@ -189,7 +189,7 @@ export default function PopupWidget() {
 
                         {errors.email && (
                           <div className="mt-1 text-sm text-red-400 invalid-feedback">
-                            {errors.email.message}
+                            {errors.email.message.toString()}
                           </div>
                         )}
                       </div>
@@ -202,7 +202,7 @@ export default function PopupWidget() {
                         </label>
 
                         <textarea
-                          rows="4"
+                          rows={4}
                           id="message"
                           {...register("message", {
                             required: "Enter your Message",
@@ -216,7 +216,7 @@ export default function PopupWidget() {
                           required></textarea>
                         {errors.message && (
                           <div className="mt-1 text-sm text-red-400 invalid-feedback">
-                            {errors.message.message}
+                            {errors.message.message.toString()}
                           </div>
                         )}
                       </div>
