@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React from "react";
-import Container from "./container";
 
 import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
+import Container from "./container";
 
 export default function Testimonials() {
   return (

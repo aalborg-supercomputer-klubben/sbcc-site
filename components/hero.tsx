@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Container from "./container";
+import Image from "next/legacy/image";
 import heroImg from "../public/img/hero.png";
 import Link from "next/link";
+import Container from "./container";
 
 export default function Hero() {
   return (
