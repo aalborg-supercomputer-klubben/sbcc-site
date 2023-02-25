@@ -56,6 +56,11 @@ export default function Footer() {
                 />
               </Link>
             </div>
+            <div>
+            <Link href="https://www.freepik.com/free-vector/circuit-board-isometric-concept_4027496.htm#query=single%20board%20computer&position=17&from_view=search&track=ais%22%3EImage" >
+            Landing page image by macrovector
+            </Link>
+            </div>
           </div>
 
           <div>
