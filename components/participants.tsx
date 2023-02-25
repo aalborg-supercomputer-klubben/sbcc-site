@@ -1,5 +1,6 @@
 import { readFile } from "fs";
 import Image from 'next/image';
+import Link from "next/link";
 import participants from "../data/participants";
 
 export default function Participants() {
@@ -7,15 +8,15 @@ export default function Participants() {
         <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             {participants.map(p => {
                 return (
-                    <div className="pt-2 text-gray-400 dark:text-gray-400">
-                        <p>{p.Name}</p>
-                        <Image 
+                    <Link href={p.Url} className="pt-2 text-gray-400 dark:text-gray-400">
+                        <p className="text-center">{p.Name}</p>
+                        <Image
                             src={p.Logo_path}
                             alt={p.Name + " logo"}
                             width={110}
                             height={33} 
                         />
-                    </div>
+                    </Link>
                 )
             })}
         </div>
