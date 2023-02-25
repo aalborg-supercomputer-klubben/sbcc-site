@@ -58,8 +58,8 @@ export default function Hero() {
       </Container>
       <Container>
         <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
-            These universities are participating
+          <div className="text-3xl leading-snug tracking-tight font-bold text-center text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+            Participating Universities
           </div>
           <Participants/>
         </div>
