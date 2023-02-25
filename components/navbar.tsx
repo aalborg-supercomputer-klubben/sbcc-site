@@ -27,7 +27,7 @@ export default function Navbar() {
                         alt="N"
                         width="32"
                         height="32"
-                        className="w-8"
+                        className="w-16"
                       />
                     </span>
                     <span>SBCC</span>

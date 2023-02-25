@@ -19,7 +19,7 @@ export default function (){
         <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="SBCC is a Single Board Cluster Competition made for students by students"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
