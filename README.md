@@ -15,6 +15,8 @@ https://nextly.web3templates.com/
 
 ## Local Development
 
+1. (Install node)[Install node](https://nodejs.org/en/download/)
+
 First, run `pnpm i` to install the dependencies.
 
 Then, run `pnpm dev` to start the development server and visit localhost:3000.
