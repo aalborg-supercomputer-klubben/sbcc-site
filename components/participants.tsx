@@ -1,24 +1,20 @@
 import { readFile } from "fs";
-type Participant = {
-    Name: string;
-    Url: string;
-    Logo_path: string;
-};
+import Image from 'next/image';
+import participants from "../data/participants";
 
 export default function Participants() {
-    const participants: Participant[] = [{
-        Name: "AAU",
-        Url: "aau.dk",
-        Logo_path: "asd",
-    }]; 
-
     return (
-        <div>
+        <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             {participants.map(p => {
                 return (
-                    <div>
+                    <div className="pt-2 text-gray-400 dark:text-gray-400">
                         <p>{p.Name}</p>
-                        <img src={p.Logo_path}></img>
+                        <Image 
+                            src={p.Logo_path}
+                            alt={p.Name + " logo"}
+                            width={110}
+                            height={33} 
+                        />
                     </div>
                 )
             })}
