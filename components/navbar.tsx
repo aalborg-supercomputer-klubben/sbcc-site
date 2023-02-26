@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
+import {Logo} from "./logo";
 
 export default function Navbar() {
   const navigation = [
@@ -19,19 +20,10 @@ export default function Navbar() {
           {({ open }) => (
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
-                <Link href="/" legacyBehavior>
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                    <span>
-                      <img
-                        src="/img/logo.svg"
-                        alt="N"
-                        width="32"
-                        height="32"
-                        className="w-16"
-                      />
-                    </span>
-                    <span>SBCC</span>
-                  </a>
+                <Link href="/">
+                  <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                      <Logo/>
+                  </span>
                 </Link>
 
                 <Disclosure.Button
