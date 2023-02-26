@@ -21,7 +21,7 @@ export default function ListSection(props) {
               placeholder="blur"
               className="rounded-xl drop-shadow "
             />
-            {data.title === "Benchmarks" ? <p key={132} className="text-sm font-bold tracking-wider text-indigo-600">Dall-E: Super fast computers competing</p> : <p>123</p>}
+            {data.title === "Benchmarks" && <p className="text-sm font-bold tracking-wider text-indigo-600">Dall-E: Super fast computers competing</p>}
           </div>
         </div>
 
