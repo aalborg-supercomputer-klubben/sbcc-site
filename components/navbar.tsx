@@ -2,6 +2,7 @@ import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import {Disclosure} from "@headlessui/react";
 import {Logo} from "./logo";
+import {competition} from "../data/competition";
 
 type Navgation = {
     name: string;
@@ -23,7 +24,7 @@ export default function Navbar() {
         <Disclosure>
           {({ open }) => (
             <>
-              <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
+              <div className="flex flex-wrap items-center justify-between w-full lg:w-auto mr-auto">
                 <Link href="/">
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                       <Logo/>
@@ -62,11 +63,7 @@ export default function Navbar() {
                         </span>
                       </Link>
                     ))}
-                    <Link href="/" legacyBehavior>
-                      <a className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
-                        Get Started
-                      </a>
-                    </Link>
+                   <RegisterButton/>
                   </>
                 </Disclosure.Panel>
               </div>
@@ -90,15 +87,18 @@ export default function Navbar() {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/">
-            <span className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
-            </span>
-          </Link>
-
+            <RegisterButton/>
           <ThemeChanger />
         </div>
       </nav>
     </div>
   );
 }
+
+const RegisterButton = () => (
+     <Link href={competition.registrationLink}>
+              <span className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5 after:content-['_↗']">
+                  Register
+              </span>
+    </Link>
+)
