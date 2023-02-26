@@ -1,8 +1,14 @@
 import Image from "next/image";
-import React from "react";
+import React, { FC } from "react";
+import { Benchmarks } from "../data/benchmarks";
 import Container from "./container";
 
-export default function Benefits(props) {
+type ListSectionProps = {
+  imgPos?: "left" | "right"
+  data: Benchmarks
+}
+
+const ListSection: FC<ListSectionProps> = (props: ListSectionProps) => {
   const { data } = props;
 
   return (
@@ -17,10 +23,11 @@ export default function Benefits(props) {
               src={data.image}
               width="521"
               height="482"
-              alt="Benefits"
-              layout="intrinsic"
+              alt=""
               placeholder="blur"
+              className="rounded-xl drop-shadow "
             />
+            {data.title === "Benchmarks" && <p className="text-sm font-bold tracking-wider text-indigo-600">Dall-E: Super fast computers competing</p>}
           </div>
         </div>
 
@@ -29,8 +36,8 @@ export default function Benefits(props) {
             props.imgPos === "right" ? "lg:justify-end" : ""
           }`}>
           <div>
-            <div className="flex flex-col w-full mt-4">
-              <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+            <div className="flex flex-col w-full">
+              <h3 className="max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
                 {data.title}
               </h3>
 
@@ -57,10 +64,8 @@ function Benefit(props) {
   return (
     <>
       <div className="flex items-start mt-8 space-x-3">
-        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11 ">
-          {React.cloneElement(props.icon, {
-            className: "w-7 h-7 text-indigo-50",
-          })}
+        <div className="flex items-center justify-center flex-shrink-0 mt-1 w-11 h-11 ">
+          <Image src={props.icon} width={32} height={32} className="rounded-full" alt={""} />
         </div>
         <div>
           <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
@@ -74,3 +79,5 @@ function Benefit(props) {
     </>
   );
 }
+
+export default ListSection
