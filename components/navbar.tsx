@@ -97,7 +97,7 @@ export default function Navbar() {
 
 const RegisterButton = () => (
      <Link href={competition.registrationLink}>
-              <span className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5 after:content-['_↗']">
+              <span className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5 after:content-['↗']">
                   Register
               </span>
     </Link>
