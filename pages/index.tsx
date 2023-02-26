@@ -1,4 +1,3 @@
-import Head from "next/head";
 import ListSection from "../components/listSection";
 import Cta from "../components/cta";
 import benchmarks from "../data/benchmarks";
@@ -9,35 +8,27 @@ import Mark from "../components/mark";
 import Navbar from "../components/navbar";
 import PopupWidget from "../components/popupWidget";
 import SectionTitle from "../components/sectionTitle";
-import Testimonials from "../components/testimonials";
 import Video from "../components/video";
-import {competition} from "../data/competition";
+import Header from "../components/header";
 
 
 const IndexPage = () => {
     return (
         <>
-            <Head>
-                <title>{competition.title}</title>
-                <meta
-                    name="description"
-                    content={competition.title + "is a Single Board Cluster Competition made for students by students"}
-                />
-                <link rel="icon" href="/favicon.ico"/>
-            </Head>
+            <Header/>
 
             <Navbar/>
             <Hero/>
-        <SectionTitle
-        pretitle="Rules and Requirements"
-        title="Cluster Requirements">
-        To ensure a level playing field for all participants, the competition
-        has a few rules and requirements. Participants are not allowed to use
-        Apple M1 and M2 processors, and their clusters must have a minimum of 4
-        sockets. MPI is required, and there is a power limit of <Mark>250 watts</Mark> and a
-        cost limit of <Mark>$6,000</Mark>.
-      </SectionTitle>
-      <ListSection data={benchmarks} />
+            <SectionTitle
+                pretitle="Rules and Requirements"
+                title="Cluster Requirements">
+                To ensure a level playing field for all participants, the competition
+                has a few rules and requirements. Participants are not allowed to use
+                Apple M1 and M2 processors, and their clusters must have a minimum of 4
+                sockets. MPI is required, and there is a power limit of <Mark>250 watts</Mark> and a
+                cost limit of <Mark>$6,000</Mark>.
+            </SectionTitle>
+            <ListSection data={benchmarks}/>
             <SectionTitle
                 pretitle="Water cooled raspberry pi cluster"
                 title="What is a SBC Cluster?">
