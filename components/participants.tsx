@@ -1,4 +1,3 @@
-import { readFile } from "fs";
 import Image from 'next/image';
 import Link from "next/link";
 import participants from "../data/participants";
@@ -10,7 +9,6 @@ export default function Participants() {
             {participants.map(p => {
                 return (
                     <Link key={p.Name} href={p.Url} className="pt-">
-                        <p className=" text-s font-bold tracking-wider max-w-xs text-indigo-600">{p.Name}</p>
                         <div className="flex flex-col items-center justify-center gap-2 h-36">
                         <Image
                             src={p.Logo_path}
