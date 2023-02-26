@@ -55,8 +55,7 @@ const IndexPage = () => {
             </SectionTitle>
             <Testimonials/>
             <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-                Answer your customers possible questions here, it will increase the
-                conversion rate as well as support or chat requests.
+                We will be updating this section with more questions and answers.
             </SectionTitle>
             <Faq/>
             <Cta/>
