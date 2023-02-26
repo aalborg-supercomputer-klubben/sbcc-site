@@ -36,7 +36,6 @@ export default function () {
         cost limit of <Mark>$6,000</Mark>.
       </SectionTitle>
       <ListSection data={benchmarks} />
-      {/* <ListSection imgPos="right" data={benchmarks} /> */}
       <SectionTitle
         pretitle="Watch a video"
         title="Learn how to fullfil your needs">
