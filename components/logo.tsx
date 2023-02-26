@@ -4,13 +4,11 @@ import lightLogo from "../public/img/logo.svg";
 import darkLogo from "../public/img/dark-logo.svg";
 import {competition} from "../data/competition";
 export const Logo = () => {
-    const {resolvedTheme, systemTheme} = useTheme();
-
-    const theme = resolvedTheme || systemTheme;
+    const {resolvedTheme} = useTheme();
 
     return (
         <span>
-            {theme === "dark" ? (
+            {resolvedTheme === "dark" ? (
                 <Image
                     src={darkLogo}
                     alt={competition.title + " dark logo"}
@@ -22,4 +20,4 @@ export const Logo = () => {
                     className="w-36"
                 />)}
         </span>)
-}
+};
