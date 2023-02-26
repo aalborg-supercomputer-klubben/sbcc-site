@@ -12,7 +12,8 @@ export default function Hero() {
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Single Board Cluster Competition
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="pt-5 text-sm font-bold tracking-wider text-indigo-600">ChatGPT: What is a SBCC?</p>
+            <p className="pb-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300 ">
             A Single Board Cluster Competition is a type of computing competition in which participants are tasked with building a cluster of single board computers (SBCs) to perform a given set of tasks or applications. The goal is to optimize the performance of the cluster within certain constraints, such as power consumption or cost. Participants typically have a limited budget and must select and configure their SBCs, network components, and other hardware and software components to achieve the best possible results. The competition fosters creativity, problem-solving, and teamwork among participants, and can also promote the use of SBCs in real-world applications.
             </p>
 
