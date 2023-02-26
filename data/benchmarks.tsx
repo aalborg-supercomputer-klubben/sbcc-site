@@ -2,6 +2,20 @@ import Dall_E_Image from "../public/img/DALL·E - super fast computers competing
 import HPL_Icon from "../public/img/HPL.ico";
 import HPCG_Icon from "../public/img/HPCG.png";
 import Intel_Icon from "../public/img/intel.png";
+import { StaticImageData } from "next/image";
+
+export type Benchmarks = {
+  title: string,
+  desc: string,
+  image: StaticImageData | string,
+  bullets: Bullet[],
+}
+
+type Bullet = {
+  title: string,
+  desc: string,
+  icon: StaticImageData,
+}
 
 const benchmarks = {
   title: "Benchmarks",

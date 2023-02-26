@@ -1,6 +1,6 @@
-import {FC} from "react";
+import {FC, PropsWithChildren} from "react";
 
-const Mark: FC = ({children}) => {
+const Mark: FC<PropsWithChildren> = ({children}) => {
   return (
     <>
       {" "}

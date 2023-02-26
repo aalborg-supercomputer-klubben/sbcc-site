@@ -1,8 +1,14 @@
 import Image from "next/image";
-import React from "react";
+import React, { FC } from "react";
+import { Benchmarks } from "../data/benchmarks";
 import Container from "./container";
 
-export default function ListSection(props) {
+type ListSectionProps = {
+  imgPos?: "left" | "right"
+  data: Benchmarks
+}
+
+const ListSection: FC<ListSectionProps> = (props: ListSectionProps) => {
   const { data } = props;
 
   return (
@@ -73,3 +79,5 @@ function Benefit(props) {
     </>
   );
 }
+
+export default ListSection
