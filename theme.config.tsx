@@ -1,6 +1,7 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import {Logo} from "./components/logo";
+import {Tags} from "./components/header";
 
 
 
@@ -12,10 +13,11 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.gg/Z49YY5FE',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  head: <Tags/>,
   footer: {
     text: '© ' + new Date().getFullYear() +' Super Compute Squad',
   },
+  primaryHue: 266
 }
 
 export default config
