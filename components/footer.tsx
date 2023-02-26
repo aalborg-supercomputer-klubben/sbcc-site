@@ -49,10 +49,10 @@ export default function Footer() {
                 className="relative block w-44">
                 <Image
                   src="/img/vercel.svg"
-                  layout="responsive"
                   alt="Powered by Vercel"
                   width="212"
                   height="44"
+                  className="container"
                 />
               </Link>
             </div>

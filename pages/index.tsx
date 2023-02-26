@@ -1,22 +1,22 @@
 import Head from "next/head";
-import Benefits from "../components/benefits";
+import ListSection from "../components/listSection";
 import Cta from "../components/cta";
-import { benefitOne, benefitTwo } from "../components/data";
+import benchmarks from "../data/benchmarks";
 import Faq from "../components/faq";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
+import Mark from "../components/mark";
 import Navbar from "../components/navbar";
 import PopupWidget from "../components/popupWidget";
 import SectionTitle from "../components/sectionTitle";
 import Testimonials from "../components/testimonials";
 import Video from "../components/video";
 
-
-export default function (){
-    return (
-      <>
+export default function () {
+  return (
+    <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Single Board Cluster Competition</title>
         <meta
           name="description"
           content="SBCC is a Single Board Cluster Competition made for students by students"
@@ -27,14 +27,16 @@ export default function (){
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Rules and Requirements"
+        title="Cluster Requirements">
+        To ensure a level playing field for all participants, the competition
+        has a few rules and requirements. Participants are not allowed to use
+        Apple M1 and M2 processors, and their clusters must have a minimum of 4
+        sockets. MPI is required, and there is a power limit of <Mark>250 watts</Mark> and a
+        cost limit of <Mark>$6,000</Mark>.
       </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      <ListSection data={benchmarks} />
+      {/* <ListSection imgPos="right" data={benchmarks} /> */}
       <SectionTitle
         pretitle="Watch a video"
         title="Learn how to fullfil your needs">
@@ -59,7 +61,5 @@ export default function (){
       <Footer />
       <PopupWidget />
     </>
-    
-
-    );
+  );
 }
