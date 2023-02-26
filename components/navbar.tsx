@@ -8,11 +8,13 @@ type Navgation = {
     href: string;
 }
 
-export default function Navbar() {
-  const navigation: Navgation[] = [
+export const navigation: Navgation[] = [
     {name: "Rules", href: "/rules"},
     {name: "About Us", href: "/about"},
-  ];
+];
+
+
+export default function Navbar() {
 
   return (
     <div className="w-full">
@@ -54,7 +56,7 @@ export default function Navbar() {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((n, index) => (
-                      <Link key={index} href={"/" + n.href}>
+                      <Link key={index} href={n.href}>
                         <span className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700">
                           {n.name}
                         </span>
@@ -77,10 +79,10 @@ export default function Navbar() {
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
-                <Link href={"/" + menu.href} legacyBehavior>
-                  <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+                <Link href={menu.href} >
+                  <span className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
                     {menu.name}
-                  </a>
+                  </span>
                 </Link>
               </li>
             ))}
@@ -88,10 +90,10 @@ export default function Navbar() {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/" legacyBehavior>
-            <a className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+          <Link href="/">
+            <span className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
               Get Started
-            </a>
+            </span>
           </Link>
 
           <ThemeChanger />
