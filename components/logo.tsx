@@ -8,7 +8,7 @@ export const Logo = () => {
           <img
               src={resolvedTheme == "light" ? "/img/logo.svg" : "/img/dark-logo.svg"}
               alt="N"
-              className="w-48"
+              className="w-36"
           />
         </span>)
 }
