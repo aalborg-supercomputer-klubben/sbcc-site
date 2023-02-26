@@ -47,13 +47,13 @@ const IndexPage = () => {
                 the end.
             </SectionTitle>
             <Video/>
-            <SectionTitle
-                pretitle="Testimonials"
-                title="Here's what our customers said">
-                Testimonails is a great way to increase the brand trust and awareness.
-                Use this section to highlight your popular customers.
-            </SectionTitle>
-            <Testimonials/>
+            {/*<SectionTitle*/}
+            {/*    pretitle="Testimonials"*/}
+            {/*    title="Here's what our customers said">*/}
+            {/*    Testimonails is a great way to increase the brand trust and awareness.*/}
+            {/*    Use this section to highlight your popular customers.*/}
+            {/*</SectionTitle>*/}
+            {/*<Testimonials/>*/}
             <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
                 We will be updating this section with more questions and answers.
             </SectionTitle>
