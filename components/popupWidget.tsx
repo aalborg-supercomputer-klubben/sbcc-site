@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useForm, useWatch } from "react-hook-form";
 import { Disclosure, Transition } from "@headlessui/react";
-import Link from "next/link";
 
 export default function PopupWidget() {
   const {
@@ -17,6 +16,7 @@ export default function PopupWidget() {
   const [Message, setMessage] = useState("");
 
   const userName = useWatch({ control, name: "name", defaultValue: "Someone" });
+  const access_key = process.env.NEXT_PUBLIC_WEB3FORMS_API_KEY ?? "";
 
   const onSubmit = async (data, e) => {
     console.log(data);
@@ -109,7 +109,7 @@ export default function PopupWidget() {
                 <div className="flex flex-col items-center justify-center h-32 p-5 bg-indigo-600">
                   <h3 className="text-lg text-white">How can we help?</h3>
                   <p className="text-white opacity-50">
-                    We usually respond in a few hours
+                    We usually respond in a few days
                   </p>
                 </div>
                 <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
@@ -117,7 +117,7 @@ export default function PopupWidget() {
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
                         type="hidden"
-                        value="YOUR_ACCESS_KEY_HERE"
+                        value={access_key}
                         {...register("apikey")}
                       />
                       <input
@@ -247,20 +247,6 @@ export default function PopupWidget() {
                           )}
                         </button>
                       </div>
-                      <p
-                        className="text-xs text-center text-gray-400"
-                        id="result">
-                        <span>
-                          Powered by{" "}
-                          <Link
-                            href="https://Web3Forms.com"
-                            className="text-gray-600"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            Web3Forms
-                          </Link>
-                        </span>
-                      </p>
                     </form>
                   )}
 
