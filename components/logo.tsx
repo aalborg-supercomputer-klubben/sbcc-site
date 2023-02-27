@@ -7,7 +7,7 @@ export const Logo = () => {
     const {resolvedTheme} = useTheme();
 
     return (
-        <span>
+        <span className="hover:opacity-75">
             {resolvedTheme === "dark" ? (
                 <Image
                     src={darkLogo}

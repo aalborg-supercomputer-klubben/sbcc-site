@@ -16,7 +16,6 @@ const IndexPage = () => {
     return (
         <>
             <Header/>
-
             <Navbar/>
             <Hero/>
             <SectionTitle
