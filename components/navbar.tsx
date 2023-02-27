@@ -1,14 +1,17 @@
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
-import { Disclosure } from "@headlessui/react";
+import {Disclosure} from "@headlessui/react";
+import {Logo} from "./logo";
+
+type Navgation = {
+    name: string;
+    href: string;
+}
 
 export default function Navbar() {
-  const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+  const navigation: Navgation[] = [
+    {name: "Rules", href: "/rules"},
+    {name: "About Us", href: "/about"},
   ];
 
   return (
@@ -19,19 +22,10 @@ export default function Navbar() {
           {({ open }) => (
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
-                <Link href="/" legacyBehavior>
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                    <span>
-                      <img
-                        src="/img/logo.svg"
-                        alt="N"
-                        width="32"
-                        height="32"
-                        className="w-16"
-                      />
-                    </span>
-                    <span>SBCC</span>
-                  </a>
+                <Link href="/">
+                  <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                      <Logo/>
+                  </span>
                 </Link>
 
                 <Disclosure.Button
@@ -59,11 +53,11 @@ export default function Navbar() {
 
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
-                    {navigation.map((item, index) => (
-                      <Link key={index} href="/" legacyBehavior>
-                        <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700">
-                          {item}
-                        </a>
+                    {navigation.map((n, index) => (
+                      <Link key={index} href={"/" + n.href}>
+                        <span className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700">
+                          {n.name}
+                        </span>
                       </Link>
                     ))}
                     <Link href="/" legacyBehavior>
@@ -83,9 +77,9 @@ export default function Navbar() {
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
-                <Link href="/" legacyBehavior>
+                <Link href={"/" + menu.href} legacyBehavior>
                   <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
-                    {menu}
+                    {menu.name}
                   </a>
                 </Link>
               </li>
