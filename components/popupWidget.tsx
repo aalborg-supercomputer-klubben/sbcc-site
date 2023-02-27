@@ -73,7 +73,7 @@ export default function PopupWidget() {
                   strokeLinecap="round"
                   strokeLinejoin="round">
                   <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                </svg>{" "}
+                </svg>
               </Transition>
 
               <Transition
@@ -96,7 +96,7 @@ export default function PopupWidget() {
                   strokeLinejoin="round">
                   <line x1="18" y1="6" x2="6" y2="18"></line>
                   <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>{" "}
+                </svg>
               </Transition>
             </Disclosure.Button>
             <Transition
