@@ -18,7 +18,7 @@ https://nextly.web3templates.com/
 
 1. [Install node](https://nodejs.org/en/download/)
 2. Run `npm install` to install the dependencies.
-3. run `npm run dev` to start the development server and visit localhost:3000.
+3. Run `npm run dev` to start the development server and visit localhost:3000.
 
 ## License
 
