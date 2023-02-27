@@ -134,8 +134,6 @@ export default function Footer() {
                     </Link>
                 </div>
             </Container>
-            {/* Do not remove this */}
-
         </div>
     );
 }
