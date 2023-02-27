@@ -122,12 +122,12 @@ export default function PopupWidget() {
                       />
                       <input
                         type="hidden"
-                        value={`${userName} sent a message from Nextly`}
+                        value={`${userName} sent a message from SBCC.io`}
                         {...register("subject")}
                       />
                       <input
                         type="hidden"
-                        value="Nextly Template"
+                        value="SBCC inquiry"
                         {...register("from_name")}
                       />
                       <input
