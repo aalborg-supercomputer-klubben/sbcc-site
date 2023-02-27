@@ -1,11 +1,11 @@
 # SBCC site
 
-Vi bruger det her som inspiration til text
+We use this website as inspiration for text
 
 https://sc22.supercomputing.org/
 
 
-Her er inspiration til kode
+Here is the inspiration for the code
 
 https://github.com/web3templates/nextly-template
 
