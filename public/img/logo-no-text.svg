@@ -1,0 +1,31 @@
+<svg data-v-70b83f88="" version="1.0" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB" style="margin: auto;" viewBox="0 0 102 102.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g data-v-70b83f88="" fill="#1c085d" class="icon-text-wrapper icon-svg-group iconsvg" transform="translate(36.307891845703125,73.21516799926758)">
+    <g class="iconsvg-imagesvg" transform="matrix(1, 0, 0, 1, -36.307892, -73.215172)">
+      <g>
+        <rect fill="#1c085d" fill-opacity="0" stroke-width="2" x="0" y="0" width="102.00000000000003" height="102.08166533226584" class="image-rect"></rect>
+        <svg x="0" y="0" width="102.00000000000003" height="102.08166533226584" filtersec="colorsb7625779776" class="image-svg-svg primary" style="overflow: visible;">
+          <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0.00009032298839883879 -0.000018247394109494053 99.91987609863281 100.00006866455078">
+            <defs>
+              <linearGradient id="1ee254d2-5b87-4880-adcc-e11b804d1360" x1="-1.29" y1="50" x2="50.44" y2="50" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#1c085d" stop-opacity="0"></stop>
+                <stop offset="1" stop-color="#1c085d"></stop>
+              </linearGradient>
+              <linearGradient id="dedeaea2-1cfb-485e-b762-b1c9a9b4584e" x1="91.92" y1="10.91" x2="53.6" y2="10.91" xlink:href="#1ee254d2-5b87-4880-adcc-e11b804d1360"></linearGradient>
+              <linearGradient id="a2f4e73c-b91a-466c-bd56-c41eb6cab355" x1="7.8" y1="15.87" x2="99.88" y2="15.87" xlink:href="#1ee254d2-5b87-4880-adcc-e11b804d1360"></linearGradient>
+              <linearGradient id="e45f7e10-1646-400a-8bda-0963e4c875ca" x1="91.92" y1="89.09" x2="53.6" y2="89.09" xlink:href="#1ee254d2-5b87-4880-adcc-e11b804d1360"></linearGradient>
+              <linearGradient id="2bc15f04-26f0-4120-a7ff-1a1d6792869a" x1="8.43" y1="84.21" x2="99.49" y2="84.21" xlink:href="#1ee254d2-5b87-4880-adcc-e11b804d1360"></linearGradient>
+              <linearGradient id="0934d572-408d-46d5-be29-e92f535da4c1" x1="102.55" y1="50.09" x2="-.17" y2="50.09" xlink:href="#1ee254d2-5b87-4880-adcc-e11b804d1360"></linearGradient>
+            </defs>
+            <path d="M48.18 50c0-4.1-4.55-8.26-12.49-11.42-8.58-3.42-20-5.3-32.23-5.3h-.59a50.14 50.14 0 0 0 0 33.44h.59c12.21 0 23.65-1.88 32.23-5.3C43.63 58.26 48.18 54.1 48.18 50z" fill="url(#1ee254d2-5b87-4880-adcc-e11b804d1360)"></path>
+            <path d="M67.76 16.38A81.32 81.32 0 0 0 91 21.33 50 50 0 0 0 57.05.49 7.23 7.23 0 0 0 55.28 5c0 4.06 4.55 8.22 12.48 11.38z" fill="url(#dedeaea2-1cfb-485e-b762-b1c9a9b4584e)"></path>
+            <path d="M37.13 20.69a111.47 111.47 0 0 1 12 4.13c3 1.17 6.16 2.39 9.29 3.34C71.76 32.22 85 32.81 95.86 30a51 51 0 0 0-2.47-4.9c-10.16-.56-19.56-2.43-27-5.38C56.89 16 51.64 10.71 51.64 5A9.89 9.89 0 0 1 53 .09C52 0 51 0 50 0a49.93 49.93 0 0 0-39.91 19.87c1.51-.25 3-.46 4.6-.63a62.46 62.46 0 0 1 22.44 1.45z" fill="url(#a2f4e73c-b91a-466c-bd56-c41eb6cab355)"></path>
+            <path d="M55.28 95a7.25 7.25 0 0 0 1.77 4.47A50 50 0 0 0 91 78.67a81.32 81.32 0 0 0-23.21 5C59.83 86.78 55.28 90.94 55.28 95z" fill="url(#e45f7e10-1646-400a-8bda-0963e4c875ca)"></path>
+            <path d="M63.78 70.16a110 110 0 0 0-11.63 4c-3.09 1.2-6.29 2.44-9.55 3.43a84.22 84.22 0 0 1-24.27 3.75h-1.41q-3.21-.06-6.22-.41A49.88 49.88 0 0 0 50 100c1 0 2 0 3-.09A9.92 9.92 0 0 1 51.64 95c0-5.75 5.25-11 14.78-14.8 7.41-3 16.81-4.82 27-5.38.77-1.33 1.47-2.71 2.12-4.12a72.14 72.14 0 0 0-10.58-1.93 59 59 0 0 0-21.18 1.39z" fill="url(#2bc15f04-26f0-4120-a7ff-1a1d6792869a)"></path>
+            <path d="M97.21 33.49a59.86 59.86 0 0 1-14.13 1.88h-1.41a84.22 84.22 0 0 1-24.27-3.73c-3.26-1-6.46-2.23-9.55-3.43a110 110 0 0 0-11.63-4 59 59 0 0 0-21.15-1.35 71.78 71.78 0 0 0-7.87 1.28 49.49 49.49 0 0 0-2.88 5.5c12.34.09 23.93 2.05 32.72 5.56 9.53 3.79 14.78 9 14.78 14.8S46.57 61 37 64.8c-8.79 3.51-20.38 5.47-32.72 5.56a50.06 50.06 0 0 0 3.45 6.42c10.11 1.81 21.92 1 33.77-2.67 3.13-1 6.26-2.17 9.29-3.34a111.47 111.47 0 0 1 12-4.13 62.46 62.46 0 0 1 22.44-1.45 74.71 74.71 0 0 1 11.6 2.16 50.25 50.25 0 0 0 .3-33.86z" fill="url(#0934d572-408d-46d5-be29-e92f535da4c1)"></path>
+          </svg>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <defs v-gra="od"></defs>
+</svg>

@@ -9,12 +9,12 @@ export default function Participants() {
             {participants.map(p => {
                 return (
                     <Link key={p.Name} href={p.Url} className="pt-">
-                        <div className="flex flex-col items-center justify-center gap-2 h-36">
+                        <div className="flex flex-col items-center justify-center gap-2 w-48 h-36">
                         <Image
                             src={p.Logo_path}
                             alt={p.Name + " logo"}
-                            width={200}
-                            height={50}
+                            width={192}
+                            height={144}
                         />
                         </div>
                     </Link>
