@@ -1,7 +1,7 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import {Logo} from "./components/logo";
-import {Tags} from "./components/header";
+import Headers from "./components/header";
 
 
 
@@ -13,11 +13,16 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.gg/Z49YY5FE',
   },
-  head: <Tags/>,
+  head: <Headers/>,
   footer: {
     text: '© ' + new Date().getFullYear() +' Super Compute Squad',
   },
-  primaryHue: 266
+  primaryHue: 266,
+  useNextSeoProps() {
+    return {
+        titleTemplate: '%s - SBCC',
+    }
+  }
 }
 
 export default config
