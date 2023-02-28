@@ -1,5 +1,5 @@
 <svg version="1.0" width="329.9px" height="127.7px" viewBox="1 1 329.8 127.7" preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB" style="margin: auto;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <g transform="matrix(1.233392, 0, 0, 1.233392, 0, 0.917648)" style="">
+  <g transform="matrix(1.233392, 0, 0, 1.233392, 0, 1)" style="">
     <rect fill="#1c085d" fill-opacity="0" stroke-width="2" x="0" y="0" width="102.00000000000003" height="102.08166533226584" class="image-rect"></rect>
     <svg x="0" y="0" width="102.00000000000003" height="102.08166533226584" class="image-svg-svg primary" style="overflow: visible;">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.00009032298839883879 -0.000018247394109494053 99.91987609863281 100.00006866455078">
@@ -23,7 +23,7 @@
       </svg>
     </svg>
   </g>
-  <g fill="#1c085d" class="icon-text-wrapper icon-svg-group iconsvg" transform="matrix(1.233392, 0, 0, 1.233392, 0, 0)" style="">
+  <g fill="#1c085d" class="icon-text-wrapper icon-svg-group iconsvg" transform="matrix(1.233392, 0, 0, 1.233392, -1, 0)" style="">
     <g transform="translate(109,0)">
       <g class="tp-name iconsvg-namesvg">
         <g transform="scale(1)">
