@@ -2,7 +2,7 @@ import {competition} from "../data/competition";
 import Head from "next/head";
 
 
-const path_to_logo = "https://sbcc.io/img/logo.svg";
+const path_to_logo = "https://sbcc.io/img/logo-1200.png";
 const Headers = () => {
     return (
         <Head>
