@@ -132,12 +132,6 @@ export default function Footer() {
                         rel="noopener ">
                         Dall-e by OpenAI
                     </Link>
-                    {" "}and {" "}
-                    <Link href="https://www.freepik.com/free-vector/circuit-board-isometric-concept_4027496.htm#query=single%20board%20computer&position=17&from_view=search&track=ais"
-                          target="_blank"
-                          rel="noopener ">
-                        Circuit board isometric concept by Macrovector on Freepik
-                    </Link>
                 </div>
             </Container>
         </div>

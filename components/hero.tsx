@@ -42,13 +42,14 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
+          <div>
             <Image
-              src={"/img/sbc-logo.svg"}
+              src={"/img/sbc-logo.png"}
               width="616"
               height="616"
               alt="Single board computer Illustration"
             />
+            <p className="pt-5 text-sm font-bold tracking-wider text-indigo-600 text-center">Midjourney: Circuit board isometric concept, aspect ratio 1: 1</p>
           </div>
         </div>
       </Container>
