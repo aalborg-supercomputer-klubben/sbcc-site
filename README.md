@@ -1,11 +1,11 @@
 # SBCC site
 
-Vi bruger det her som inspiration til text
+We use this website as inspiration for text
 
 https://sc22.supercomputing.org/
 
 
-Her er inspiration til kode
+Here is the inspiration for the code
 
 https://github.com/web3templates/nextly-template
 
@@ -18,7 +18,7 @@ https://nextly.web3templates.com/
 
 1. [Install node](https://nodejs.org/en/download/)
 2. Run `npm install` to install the dependencies.
-3. run `npm run dev` to start the development server and visit localhost:3000.
+3. Run `npm run dev` to start the development server and visit localhost:3000.
 
 ## License
 

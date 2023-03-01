@@ -13,7 +13,7 @@ export default function Hero() {
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Single Board Cluster Competition
             </h1>
-            <p className="pt-5 text-sm font-bold tracking-wider text-indigo-600">ChatGPT: What is SBCC?</p>
+            <p className="pt-5 text-sm font-bold tracking-wider text-indigo-600">ChatGPT: Welcome people to the SBCC website</p>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             Welcome to the Single Board Cluster Competition for students, where efficiency is the key to success! In this competition, we challenge you to create the most efficient single board computer cluster that can perform complex tasks while using the least amount of power and resources.
             </p>
@@ -42,13 +42,14 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
+          <div>
             <Image
-              src={"/img/sbc-logo.svg"}
+              src={"/img/sbc-logo.png"}
               width="616"
               height="616"
               alt="Single board computer Illustration"
             />
+            <p className="pt-5 text-sm font-bold tracking-wider text-indigo-600 text-center">Midjourney: Circuit board isometric concept, aspect ratio 1: 1</p>
           </div>
         </div>
       </Container>
