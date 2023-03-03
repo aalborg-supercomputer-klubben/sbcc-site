@@ -11,6 +11,11 @@ const participants: Participant[] = [
     Logo_path: "/img/participants/Aalborg-University-Denmark.png",
   },
   {
+    Name: "Boston University",
+    Url: "https://www.bu.edu/",
+    Logo_path: "/img/Boston-University-Logo.png",
+  },
+  {
     Name: "ETH Zürich",
     Url: "https://ethz.ch/de.html",
     Logo_path: "/img/participants/ETH-Zurich_Logo_black.png",
