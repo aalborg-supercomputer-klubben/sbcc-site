@@ -10,7 +10,6 @@ export const Logo = () => {
     const {resolvedTheme} = useTheme();
     
     useEffect(() => setMounted(true), []);
-
     if (!mounted) return null;
     
     return (
