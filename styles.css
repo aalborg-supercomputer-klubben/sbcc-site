@@ -8,20 +8,3 @@
     @apply dark:bg-trueGray-900;
   }
 }
-
-
-.animate-infinite-banner {
-    animation: infinite-banner 30s linear infinite;
-}
-
-@keyframes infinite-banner {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    /*(participants length) * 220 px (width of image plus gap) - (110 half width)*/
-    /* This is not like 100% correct. but it dose the job 90% of the way*/
-    /*8 * 220 - 90 = 1670. This fitted better than the formula*/
-    transform: translateX(-1670px);
-  }
-}
