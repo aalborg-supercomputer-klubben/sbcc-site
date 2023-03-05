@@ -31,9 +31,9 @@ const participants: Participant[] = [
     Logo_path: "/img/participants/MIT-Massachusetts-Institute-of-Technology-Logo.png",
   },
   {
-    Name: "Northeastern University",
+    Name: "Nanyang Technological University",
     Url: "https://www.northeastern.edu/",
-    Logo_path: "/img/participants/Northeastern-University-Logo.png",
+    Logo_path: "/img/participants/Nanyang-technological-university.png",
   },
   {
     Name: "University of California San Diego",
