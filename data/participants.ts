@@ -40,11 +40,12 @@ const participants: Participant[] = [
     Url: "https://ucsd.edu/",
     Logo_path: "/img/participants/University-of-California-San-Diego.png",
   },
-  {
-    Name: "University of Texas at Austin",
-    Url: "https://www.utexas.edu/",
-    Logo_path: "/img/participants/University-of-Texas-at-Austin.png",
-  },
+  // We haven't heard back from UT Austin yet
+  // {
+  //   Name: "University of Texas at Austin",
+  //   Url: "https://www.utexas.edu/",
+  //   Logo_path: "/img/participants/University-of-Texas-at-Austin.png",
+  // },
 ];
 
 export default participants;
