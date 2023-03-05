@@ -10,6 +10,7 @@ import PopupWidget from "../components/popupWidget";
 import SectionTitle from "../components/sectionTitle";
 import Video from "../components/video";
 import Header from "../components/header";
+import Testimonials from "../components/testimonials";
 
 
 const IndexPage = () => {
@@ -37,13 +38,13 @@ const IndexPage = () => {
                 the end.
             </SectionTitle>
             <Video/>
-            {/*<SectionTitle*/}
-            {/*    pretitle="Testimonials"*/}
-            {/*    title="Here's what our customers said">*/}
-            {/*    Testimonails is a great way to increase the brand trust and awareness.*/}
-            {/*    Use this section to highlight your popular customers.*/}
-            {/*</SectionTitle>*/}
-            {/*<Testimonials/>*/}
+            <SectionTitle
+                pretitle="SBCC is backed by our Faculty members"
+                title="Advisors & Faculty members">
+                The SBCC is backed by a team of faculty members, who backs this student initiative and advisors who are experts in the field of
+                high-performance computing.
+            </SectionTitle>
+            <Testimonials/>
             <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
                 We will be updating this section with more questions and answers.
             </SectionTitle>
