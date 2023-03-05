@@ -32,7 +32,7 @@ const participants: Participant[] = [
   },
   {
     Name: "Nanyang Technological University",
-    Url: "https://www.northeastern.edu/",
+    Url: "https://www.ntu.edu.sg/",
     Logo_path: "/img/participants/Nanyang-technological-university.png",
   },
   {
