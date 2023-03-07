@@ -25,7 +25,10 @@ interface TestimonialProps {
     size?: "big" | "small";
 }
 const Statement = ({statement, size} : TestimonialProps) => (
-      <div className={size === "big" ? "lg:col-span-2 xl:col-auto" : ""}>
+
+        // TODO - Uncomment the following line when we have at least 3 testimonials
+        // <div className={size === "big" ? "lg:col-span-2 xl:col-auto": ""}>
+        <div className="col-span-full">
         <div
             className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
           <p className="text-2xl leading-normal ">

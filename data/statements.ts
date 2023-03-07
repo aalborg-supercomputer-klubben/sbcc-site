@@ -1,5 +1,5 @@
 import {StaticImageData} from "next/image";
-import userOneImg from "../public/img/user1.jpg";
+import louiseImg from "../public/img/statements/louise.webp";
 
 type Expert = {
     image: string | StaticImageData;
@@ -12,13 +12,14 @@ export type Statement = {
     size?: "big" | "small";
 }
 export const statements: Statement[] = [
-    // {
-    //     text: "Share a real **testimonial** that **hits** some of your **benefits** from one of your popular customer.",
-    //     avatar: {
-    //         image: userOneImg,
-    //         name: "Sarah Steiner",
-    //         title: "VP Sales at Google"
-    //     },
-    //     size: "big"
-    // },
+    {
+        //text: "This is an excellent opportunity to encourage innovation, creativity, and collaboration among our students in the field of HPC.",
+        text: "This is a excellent opportunity to gain hands-on **experience** with **HPC**, enhancing technical skills and preparing for **industry** challenges.",
+        avatar: {
+            image: louiseImg,
+            name: "Louise Møller Haase",
+            title: "Vice Dean, Aalborg University"
+        },
+        size: "big"
+    },
 ];
