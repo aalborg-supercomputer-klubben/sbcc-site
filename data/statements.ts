@@ -14,7 +14,7 @@ export type Statement = {
 export const statements: Statement[] = [
     {
         //text: "This is an excellent opportunity to encourage innovation, creativity, and collaboration among our students in the field of HPC.",
-        text: "This is a excellent opportunity to gain hands-on **experience** with **HPC**, enhancing technical skills and preparing for **industry** challenges.",
+        text: "This is an excellent opportunity to gain hands-on **experience** with **HPC**, enhancing technical skills and preparing for **industry** challenges.",
         avatar: {
             image: louiseImg,
             name: "Louise Møller Haase",
