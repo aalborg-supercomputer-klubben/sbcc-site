@@ -1,3 +1,5 @@
+import {competition} from "./competition";
+
 type Socials = {
     twitter?: string;
     github?: string;
@@ -7,7 +9,9 @@ type Socials = {
     linkedin?: string;
 
 }
+
+
 export const socials: Socials = {
-    discord: "https://discord.gg/Z49YY5FE",
-    github: "https://github.com/SuperCompUCSD"
+    discord: competition.discordServerInvitationLink,
+    github: "https://github.com/supercomputer-klubben-aau"
 }

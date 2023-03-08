@@ -21,12 +21,16 @@ export default function Video() {
       <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl ">
         <div
           onClick={() => setPlayVideo(!playVideo)}
-          className="relative bg-indigo-300 cursor-pointer aspect-w-16 aspect-h-9 bg-gradient-to-tr from-purple-400 to-indigo-700">
+          className="relative bg-indigo-300 cursor-pointer aspect-w-16 aspect-h-9">
           {!playVideo && (
+                  <div className="bg-contain bg-[url(/img/video_overlay.png)]">
+                  <div className="w-full h-full bg-gradient-to-tr from-purple-400 to-indigo-700 opacity-50">
             <button className="absolute inset-auto w-16 h-16 text-white transform -translate-x-1/2 -translate-y-1/2 lg:w-28 lg:h-28 top-1/2 left-1/2">
                 <VideoPlayButton/>
               <span className="sr-only">Play Video</span>
             </button>
+                          </div>
+              </div>
           )}
           {playVideo && (
               // Put transparrent color on top of the video to make it look like a button

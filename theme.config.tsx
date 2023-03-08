@@ -2,6 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import {Logo} from "./components/logo";
 import Headers from "./components/header";
+import {competition} from "./data/competition";
 
 
 
@@ -11,7 +12,7 @@ const config: DocsThemeConfig = {
     link: 'https://github.com/supercomputer-klubben-aau/sbcc-site',
   },
   chat: {
-    link: 'https://discord.gg/Z49YY5FE',
+    link: competition.discordServerInvitationLink,
   },
   head: <Headers/>,
   footer: {
