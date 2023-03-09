@@ -10,6 +10,6 @@ export const faq: Faq[] = [
     },
     {
         question: "When is the deadline for sign up?",
-        answer: "You can sign up, up until the event starts. You real deadline is getting hardware, and setting it up in time.",
+        answer: "The application deadline is on the 30th of April. Your real deadline is getting hardware, and setting it up in time 👷🏻🚧.",
     },
 ];
