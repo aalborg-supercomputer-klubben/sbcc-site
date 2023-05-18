@@ -20,6 +20,13 @@ const IndexPage = () => {
             <Navbar/>
             <Hero/>
             <SectionTitle
+                title="When and where"
+                pretitle="San Diego, California"
+            >
+                The competition will be held at the San Diego Supercomputer Center
+                on the 25th of May 2023. The competition will be held in person.
+            </SectionTitle>
+            <SectionTitle
                 pretitle="Rules and Requirements"
                 title="Cluster Requirements">
                 To ensure a level playing field for all participants, the competition
