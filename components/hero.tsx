@@ -3,6 +3,7 @@ import Container from "./container";
 import Link from "next/link";
 import Participants from "./participants";
 import {SignUpButton} from "./signUpButton";
+import { Sponsors } from "./sponsors";
 
 export default function Hero() {
   return (
@@ -59,6 +60,14 @@ export default function Hero() {
             Participating Universities
           </div>
           <Participants/>
+        </div>
+      </Container>
+      <Container>
+        <div className="flex flex-col justify-center">
+          <div className="text-3xl leading-snug tracking-tight font-bold text-center text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+            Sponsors
+          </div>
+          <Sponsors/>
         </div>
       </Container>
     </>
