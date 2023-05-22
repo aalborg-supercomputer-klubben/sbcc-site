@@ -23,8 +23,8 @@ const IndexPage = () => {
                 title="When and where"
                 pretitle="San Diego, California"
             >
-                The competition will be held at the San Diego Supercomputer Center
-                on the 25th of May 2023. The competition will be held in person.
+                The competition will be held at the UCSD Jacobs Conference Center in Jacobs Hall,
+                25 of May 2023, 8am-3pm. The competition will be held in person.
             </SectionTitle>
             <SectionTitle
                 pretitle="Rules and Requirements"
