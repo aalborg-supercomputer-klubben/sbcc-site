@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Container from "./container";
 import Link from "next/link";
-import Participants from "./participants";
+import {Participants2024} from "./participants";
 import {SignUpButton} from "./signUpButton";
 import { Sponsors } from "./sponsors";
+
+
 
 export default function Hero() {
   return (
@@ -59,17 +61,17 @@ export default function Hero() {
           <div className="text-3xl leading-snug tracking-tight font-bold text-center text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
             Participating Universities
           </div>
-          <Participants/>
+          <Participants2024/>
         </div>
       </Container>
-      <Container>
+      {/* <Container>
         <div className="flex flex-col justify-center">
           <div className="text-3xl leading-snug tracking-tight font-bold text-center text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
             Sponsors
           </div>
           <Sponsors/>
         </div>
-      </Container>
+      </Container> */}
     </>
   );
 }
