@@ -1,0 +1,71 @@
+import Container from '../components/container';
+import Participants from '../components/participants';
+import { Sponsors } from '../components/sponsors';
+import Image from 'next/image';
+import Link from "next/link";
+
+
+# SBCC 2023
+
+On the 25th of May 2023, the University of California San Diego (UCSD) hosted an exciting event focused on high-performance computing. This event was open to all students, researchers, and enthusiasts who were interested in exploring the capabilities of supercomputers and single board computers.
+
+Participants had the opportunity to showcase their skills in building and optimizing single board computer clusters using the latest hardware and software technologies. The event featured several benchmarking challenges, including HPL and HPCG, which were run with MPI.
+
+The Graph500 applications were also featured, providing participants with an opportunity to explore the application of high-performance computing in real-world scenarios.
+
+The event was held both virtually and in-person, with participants having the option to attend in person at UCSD or remotely via online platforms. This ensured that the event was accessible to as many participants as possible, regardless of their location.
+
+Participants were required to work within certain constraints, including a power limit of 250 watts and a cost limit of $6,000 MSRP. Teams were also required to consist of undergraduate and graduate students only.
+
+Overall, this event promised to be an exciting opportunity for anyone interested in high-performance computing to showcase their skills, learn from others, and explore the latest technologies in this rapidly evolving field. We looked forward to seeing you there!
+
+
+## Rules for 2023
+
+The Single Board Computer Competition (SBCC2023) had established the following rules to ensure fair and equal competition among participants. First, Apple M1 and M2 chips were off-limits. Additionally, participants were required to use a minimum of 4 sockets and run MPI. The power limit was set at 250 watts, and the cost limit was $6,000 MSRP (American MSRP).
+
+The competition included benchmarking challenges, such as the High-Performance Linpack (HPL) and High-Performance Conjugate Gradient (HPCG), which had to be run with MPI. Participants were also tasked with completing the Intel MPI benchmarks. There was an application challenge, which involved the Graph500 benchmark. Reference implementations for this challenge were available at [Official](https://github.com/graph500/graph500) and [ParallelFirstSearch](https://github.com/du00d/ParallelFirstSearch).
+
+The SBCC competition was held virtually, with the option for in-person participation. The event took place on May 25th.
+
+To measure efficiency, the GFLOPS/watt for the chips being tested was recorded based on HPL results. A sample result of what was expected could be found here: https://github.com/deater/performance_results. This provided a table with the chips and their GFLOPS/watt.
+
+The SBCC competition presented a unique opportunity for participants to showcase their skills in building and optimizing single board computer clusters, while also gaining valuable knowledge and experience in the field of high-performance computing.
+
+## Winners of SBCC2023
+The Supercomputer Club at Aalborg University showcased their exceptional prowess by emerging as the winners of SBCC 2023. 
+Notably, in the HPL benchmark, they achieved a substantial performance boost, delivering a remarkable 20-fold increase in GFlops (GigaFLOPS) compared to the second-place finisher. 
+
+<div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
+                 <Link key={"Aalborg University"} href={"https://www.aau.dk/"} className="pt-">
+                     <div className="flex flex-col items-center justify-center gap-2">
+                     <Image
+                         src={"/img/participants/Aalborg-University-Denmark.png"}
+                         alt={"Aalborg University logo"}
+                         width={450}
+                         height={337.5}
+                     />
+                     <Image
+                         src={"/img/participants/AAU-sbcc2023.jpg"}
+                         alt={"Aalborg University logo"}
+                        width={450}
+                         height={337.5}
+                     />
+                     </div>
+                 </Link>
+</div>
+
+## Participated Universities
+<Container>
+        <div className="flex flex-col justify-center">
+          <Participants/>
+        </div>
+      </Container>
+      <Container>
+        <div className="flex flex-col justify-center">
+          <div className="text-3xl leading-snug tracking-tight font-bold text-center text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+            Sponsors
+          </div>
+          <Sponsors/>
+        </div>
+      </Container>

@@ -10,6 +10,7 @@ type Navgation = {
 }
 
 export const navigation: Navgation[] = [
+    {name: "History", href: "/last-sbcc"},
     {name: "Rules", href: "/rules"},
     {name: "About Us", href: "/about"},
 ];

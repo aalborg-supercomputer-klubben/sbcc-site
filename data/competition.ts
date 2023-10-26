@@ -6,11 +6,10 @@ export type Competetion = {
 
 }
 
-const dateOfCompetition = new Date(2023, 5, 25);
+const dateOfCompetition = new Date(2024, 4);
 export const competition: Competetion = {
     date: dateOfCompetition,
     title: "SBCC " + dateOfCompetition.getFullYear(),
-    registrationLink: "https://forms.gle/nXhGSiEkUKDWXmJ1A",
-    discordServerInvitationLink: "https://discord.gg/2J4aKcPRFU",
-
+    registrationLink: "https://forms.gle/rnRoD5s4hVZ7NGRq8",
+    discordServerInvitationLink: "https://discord.gg/G6rJrXNrnc",
 }
