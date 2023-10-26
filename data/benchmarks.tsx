@@ -2,6 +2,7 @@ import Dall_E_Image from "../public/img/DALL·E - super fast computers competing
 import HPL_Icon from "../public/img/HPL.ico";
 import HPCG_Icon from "../public/img/HPCG.png";
 import Intel_Icon from "../public/img/intel.png";
+import Question_mark from "../public/img/Question_mark.png";
 import { StaticImageData } from "next/image";
 
 export type Benchmarks = {
@@ -37,6 +38,11 @@ const benchmarks = {
       desc: "A set of elementary benchmarks that conform to MPI-1, MPI-2, and MPI-3 standard. ",
       icon: Intel_Icon,
     },
+    {
+        title: "Mystery application",
+        desc: "A mystery application that will be revealed at the competition.",
+        icon: Question_mark,
+      },
   ],
 };
 

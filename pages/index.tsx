@@ -11,20 +11,24 @@ import SectionTitle from "../components/sectionTitle";
 import Video from "../components/video";
 import Header from "../components/header";
 import Testimonials from "../components/testimonials";
+import Link from "next/link";
+import Image from 'next/image';
 
 
 const IndexPage = () => {
     return (
         <>
-            <Header/>
-            <Navbar/>
-            <Hero/>
+            <Header />
+            <Navbar />
+            <Hero />
             <SectionTitle
                 title="When and where"
-                pretitle="San Diego, California"
-            >
-                The competition will be held at the UCSD Jacobs Conference Center in Jacobs Hall,
-                25 of May 2023, 8am-3pm. The competition will be held in person.
+                pretitle="Aalborg, Denmark">
+                Selma Lagerløfs Vej 300, 9220 Aalborg
+                <br></br>
+                Aalborg Universitet, Cassiopeia - House of Computer Science
+                <br></br><br></br>
+                This location serves as the venue for the new SBCC 2024 competition, providing participants with a dedicated space to engage in the exciting world of high-performance computing.
             </SectionTitle>
             <SectionTitle
                 pretitle="Rules and Requirements"
@@ -35,7 +39,7 @@ const IndexPage = () => {
                 sockets. MPI is required, and there is a power limit of <Mark>250 watts</Mark> and a
                 cost limit of <Mark>$6,000</Mark>.
             </SectionTitle>
-            <ListSection data={benchmarks}/>
+            <ListSection data={benchmarks} />
             <SectionTitle
                 pretitle="Water cooled raspberry pi cluster"
                 title="What is a SBC Cluster?">
@@ -44,21 +48,21 @@ const IndexPage = () => {
                 Here is a video of a water cooled raspberry pi cluster, with some benchmarks against normal laptops at
                 the end.
             </SectionTitle>
-            <Video/>
+            <Video />
             <SectionTitle
                 pretitle="SBCC is backed by our Faculty members"
                 title="Advisors & Faculty members">
                 The SBCC is backed by a team of faculty members, who backs this student initiative and advisors who are experts in the field of
                 high-performance computing.
             </SectionTitle>
-            <Testimonials/>
+            <Testimonials />
             <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
                 We will be updating this section with more questions and answers.
             </SectionTitle>
-            <Faq/>
-            <Cta/>
-            <Footer/>
-            <PopupWidget/>
+            <Faq />
+            <Cta />
+            <Footer />
+            <PopupWidget />
         </>
     )
 };
