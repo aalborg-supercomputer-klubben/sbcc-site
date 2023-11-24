@@ -30,17 +30,14 @@ const IndexPage = () => {
                 Place:<br></br>
                 Selma Lagerløfs Vej 300, 9220 Aalborg
                 <br></br>
-                Aalborg Universitet, Cassiopeia - House of Computer Science
-                <br></br><br></br>
-                This location serves as the venue for the new SBCC 2024 competition, providing participants with a dedicated space to engage in the exciting world of high-performance computing.
-            
+                Aalborg Universitet, Cassiopeia - House of Computer Science            
             </SectionTitle>
             <SectionTitle
                 pretitle="Rules and Requirements"
                 title="Cluster Requirements">
                 To ensure a level playing field for all participants, the competition
                 has a few rules and requirements. Participants are not allowed to use
-                Apple M1 and M2 processors, and their clusters must have a minimum of 4
+                Apple M1, M2 and M3 processors, and their clusters must have a minimum of 4
                 sockets. MPI is required, and there is a power limit of <Mark>250 watts</Mark> and a
                 cost limit of <Mark>$6,000</Mark>.
             </SectionTitle>
