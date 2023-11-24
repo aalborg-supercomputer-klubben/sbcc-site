@@ -24,11 +24,16 @@ const IndexPage = () => {
             <SectionTitle
                 title="When and where"
                 pretitle="Aalborg, Denmark">
+                Date:<br></br> 
+                April 18th - 20th 2024
+                <br></br><br></br>
+                Place:<br></br>
                 Selma Lagerløfs Vej 300, 9220 Aalborg
                 <br></br>
                 Aalborg Universitet, Cassiopeia - House of Computer Science
                 <br></br><br></br>
                 This location serves as the venue for the new SBCC 2024 competition, providing participants with a dedicated space to engage in the exciting world of high-performance computing.
+            
             </SectionTitle>
             <SectionTitle
                 pretitle="Rules and Requirements"
