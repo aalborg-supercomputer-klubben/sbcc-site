@@ -43,19 +43,11 @@ const IndexPage = () => {
             </SectionTitle>
             <ListSection data={benchmarks} />
             <SectionTitle
-                pretitle="Water cooled raspberry pi cluster"
                 title="What is a SBC Cluster?">
-                A single board computer cluster is a group of single board computers, which comes in many shapes and
-                sizes, that are connected together to form a single computer.
-                Here is a video of a water cooled raspberry pi cluster, with some benchmarks against normal laptops at
-                the end.
-            </SectionTitle>
-            <Video />
-            <SectionTitle
-                pretitle="SBCC is backed by our Faculty members"
-                title="Advisors & Faculty members">
-                The SBCC is backed by a team of faculty members, who backs this student initiative and advisors who are experts in the field of
-                high-performance computing.
+                A Single Board Computer (SBC) cluster refers to a group of single-board computers that are interconnected to work together as a unified computing system. 
+                Each single-board computer is a complete computer built on a single circuit board, typically with a processor, memory, storage, and various other components.
+                When these SBCs are connected in a cluster, they can collectively perform tasks that would be challenging for a single board to handle alone. 
+                Clustering allows for parallel processing, where multiple computers work on different parts of a task simultaneously, potentially speeding up computation.
             </SectionTitle>
             <Testimonials />
             <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
