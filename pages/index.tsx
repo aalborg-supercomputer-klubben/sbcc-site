@@ -28,9 +28,9 @@ const IndexPage = () => {
                 April 18th - 20th 2024
                 <br></br><br></br>
                 Place:<br></br>
-                Selma Lagerløfs Vej 300, 9220 Aalborg
+                9836 Hopkins Dr, La Jolla, CA 92093
                 <br></br>
-                Aalborg Universitet, Cassiopeia - House of Computer Science            
+                University of California, Sandiego - SDSC Auditorium
             </SectionTitle>
             <SectionTitle
                 pretitle="Rules and Requirements"
