@@ -23,7 +23,7 @@ const IndexPage = () => {
             <Hero />
             <SectionTitle
                 title="When and where"
-                pretitle="Aalborg, Denmark">
+                pretitle="Sandiego, USA">
                 Date:<br></br> 
                 April 18th - 20th 2024
                 <br></br><br></br>
