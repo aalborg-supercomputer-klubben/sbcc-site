@@ -30,7 +30,7 @@ const IndexPage = () => {
                 Place:<br></br>
                 9836 Hopkins Dr, La Jolla, CA 92093
                 <br></br>
-                University of California, Sandiego - SDSC Auditorium
+                University of California, San Diego - SDSC Auditorium
             </SectionTitle>
             <SectionTitle
                 pretitle="Rules and Requirements"
