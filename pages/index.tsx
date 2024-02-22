@@ -23,14 +23,14 @@ const IndexPage = () => {
             <Hero />
             <SectionTitle
                 title="When and where"
-                pretitle="Sandiego, USA">
+                pretitle="San Diego, USA">
                 Date:<br></br> 
                 April 18th - 20th 2024
                 <br></br><br></br>
                 Place:<br></br>
                 9836 Hopkins Dr, La Jolla, CA 92093
                 <br></br>
-                University of California, Sandiego - SDSC Auditorium
+                University of California, San Diego - SDSC Auditorium
             </SectionTitle>
             <SectionTitle
                 pretitle="Rules and Requirements"
