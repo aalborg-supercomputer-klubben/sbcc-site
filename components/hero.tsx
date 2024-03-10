@@ -64,14 +64,14 @@ export default function Hero() {
           <Participants2024/>
         </div>
       </Container> */}
-      {/* <Container>
+      <Container>
         <div className="flex flex-col justify-center">
           <div className="text-3xl leading-snug tracking-tight font-bold text-center text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-            Sponsors
+            Sponsors for SBCC24
           </div>
           <Sponsors/>
         </div>
-      </Container> */}
+      </Container>
     </>
   );
 }
