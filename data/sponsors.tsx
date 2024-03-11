@@ -6,8 +6,13 @@ export type Sponsor = {
 
 export const sponsors: Sponsor[] = [
     {
-        name: 'San Diego Supercomputer Center',
-        logo: '/img/sponsors/sdsc.png',
-        url: 'https://www.sdsc.edu/'
+        name: 'Vertiv',
+        logo: '/img/sponsors/ver_logo_tm_hrz_rgb_blk.jpg',
+        url: 'https://www.vertiv.com/en-emea/'
+    },
+    {
+        name: 'Dell Technologies',
+        logo: '/img/sponsors/delltech-logo-prm-blue-rgb-1280x1280.jpeg',
+        url: 'https://www.dell.com/'
     },
 ]
